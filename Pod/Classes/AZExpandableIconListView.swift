@@ -65,7 +65,7 @@ open class AZExpandableIconListView: UIView {
         updateContentSize()
     }
     
-    func onViewTapped(){
+    @objc func onViewTapped(){
         updateSpacingConstraints()
         isExpanded = !isExpanded
         updateContentSize()
